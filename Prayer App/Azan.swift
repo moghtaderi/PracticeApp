@@ -18,7 +18,7 @@ class Azan: UIViewController {
         super.viewDidLoad()
         
         // Background Color
-        self.view.backgroundColor = UIColor(gradientStyle:UIGradientStyle.Radial, withFrame:self.view.frame, andColors:[UIColor.flatLimeColor(), UIColor.flatForestGreenColorDark()])
+        self.view.backgroundColor = UIColor(gradientStyle:UIGradientStyle.Radial, withFrame:self.view.frame, andColors:[UIColor.flatSkyBlueColor(), UIColor.flatNavyBlueColorDark()])
 
     }
 
