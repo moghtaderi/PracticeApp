@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13A6A7951C5D7CC900A3FB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */; };
-		13A6A7971C5D7CC900A3FB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A7961C5D7CC900A3FB08 /* ViewController.swift */; };
+		13A6A7971C5D7CC900A3FB08 /* PrayerCompanion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */; };
 		13A6A79A1C5D7CC900A3FB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A7981C5D7CC900A3FB08 /* Main.storyboard */; };
 		13A6A79D1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A79B1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld */; };
 		13A6A79F1C5D7CC900A3FB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */; };
 		13A6A7A21C5D7CC900A3FB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A7A01C5D7CC900A3FB08 /* LaunchScreen.storyboard */; };
+		13E134D41C5D8ADD00A37A04 /* Azan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E134D31C5D8ADD00A37A04 /* Azan.swift */; };
 		B4D8A2D75F0490FC332635AD /* Pods_Prayer_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC487588959563F97A496F /* Pods_Prayer_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13A6A7911C5D7CC900A3FB08 /* Prayer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prayer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13A6A7961C5D7CC900A3FB08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCompanion.swift; sourceTree = "<group>"; };
 		13A6A7991C5D7CC900A3FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13A6A79C1C5D7CC900A3FB08 /* Prayer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prayer_App.xcdatamodel; sourceTree = "<group>"; };
 		13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13A6A7A11C5D7CC900A3FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A6A7A31C5D7CC900A3FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E134D31C5D8ADD00A37A04 /* Azan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Azan.swift; sourceTree = "<group>"; };
 		5A2292AD94ECBFEF686E4932 /* Pods-Prayer App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prayer App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prayer App/Pods-Prayer App.debug.xcconfig"; sourceTree = "<group>"; };
 		5C8BFE301761DE657512571E /* Pods-Prayer App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prayer App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prayer App/Pods-Prayer App.release.xcconfig"; sourceTree = "<group>"; };
 		ECEC487588959563F97A496F /* Pods_Prayer_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prayer_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */,
-				13A6A7961C5D7CC900A3FB08 /* ViewController.swift */,
+				13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */,
+				13E134D31C5D8ADD00A37A04 /* Azan.swift */,
 				13A6A7981C5D7CC900A3FB08 /* Main.storyboard */,
 				13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */,
 				13A6A7A01C5D7CC900A3FB08 /* LaunchScreen.storyboard */,
@@ -214,9 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A6A7971C5D7CC900A3FB08 /* ViewController.swift in Sources */,
+				13A6A7971C5D7CC900A3FB08 /* PrayerCompanion.swift in Sources */,
 				13A6A79D1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld in Sources */,
 				13A6A7951C5D7CC900A3FB08 /* AppDelegate.swift in Sources */,
+				13E134D41C5D8ADD00A37A04 /* Azan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
