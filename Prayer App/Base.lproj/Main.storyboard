@@ -49,7 +49,17 @@
                             <outlet property="delegate" destination="Rzh-mZ-Ka4" id="UGa-bk-i3S"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="kcX-6N-FYv"/>
+                    <navigationItem key="navigationItem" id="kcX-6N-FYv">
+                        <barButtonItem key="leftBarButtonItem" image="icon_menu" style="plain" id="dVO-nD-5Yo">
+                            <color key="tintColor" red="0.12637259070000001" green="0.12639245390000001" blue="0.1263653636" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnMenuPressed:" destination="Rzh-mZ-Ka4" id="4Q8-Vz-z0J"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="PtJ-jK-BUd">
+                            <color key="tintColor" red="0.12637259070000001" green="0.12639245390000001" blue="0.1263653636" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableCell" destination="Zhs-gv-46J" id="8F0-4P-h77"/>
                     </connections>
@@ -59,4 +69,7 @@
             <point key="canvasLocation" x="1195.5" y="411.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_menu" width="18" height="12"/>
+    </resources>
 </document>
