@@ -46,6 +46,7 @@
                                                     </variation>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.9212072491645813" green="0.84832113981246948" blue="0.62377804517745972" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="j4V-By-tZp" secondAttribute="bottom" id="JZe-cR-FKp"/>
                                                 <constraint firstItem="j4V-By-tZp" firstAttribute="top" secondItem="Ru9-xW-DpM" secondAttribute="top" id="oWf-43-Jxf"/>
