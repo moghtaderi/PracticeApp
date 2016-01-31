@@ -26,9 +26,15 @@ class PrayerCompanion: UITableViewController {
         self.view.backgroundColor = UIColor(gradientStyle:UIGradientStyle.Radial, withFrame:self.view.frame, andColors:[UIColor.flatLimeColor(), UIColor.flatForestGreenColorDark()])
         
         title = model.description
-        imageView.image = model.image
+        //imageView.image = model.image
         
     }
+    
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return self.view.frame.height-(self.navigationController?.navigationBar.frame.height)!
+    }
+
     
     private func loadMenu() {
         let menu = MenuView()
@@ -62,7 +68,7 @@ class PrayerCompanion: UITableViewController {
                 let transition = CircularRevealTransition(layer: imageView.layer, center: center)
                 transition.start()
                 
-                imageView.image = model.image
+                //imageView.image = model.image
             }
         }
     }
