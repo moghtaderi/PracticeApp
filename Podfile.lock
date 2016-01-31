@@ -2,11 +2,14 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - Persei (2.0.1)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift
+  - Persei (~> 2.0.1)
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Persei: 0cac86b27592be808823a2846e4854ae60332f18
 
 COCOAPODS: 0.39.0

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '26C1E2742FACEFF16CB92534'
+               BlueprintIdentifier = 'E6349E98E9569354FC33BBD8'
                BlueprintName = 'Pods-Prayer App'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Prayer_App.framework'>

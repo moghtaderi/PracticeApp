@@ -7,17 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130EA4CA1C5D9EE8004B8901 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EA4C91C5D9EE8004B8901 /* ContentType.swift */; };
+		130EA4D31C5D9EF1004B8901 /* content_films@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4CB1C5D9EF1004B8901 /* content_films@3x.png */; };
+		130EA4D41C5D9EF1004B8901 /* content_music-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4CC1C5D9EF1004B8901 /* content_music-667h@2x.png */; };
+		130EA4D51C5D9EF1004B8901 /* content_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4CD1C5D9EF1004B8901 /* content_music.png */; };
+		130EA4D61C5D9EF1004B8901 /* content_music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4CE1C5D9EF1004B8901 /* content_music@2x.png */; };
+		130EA4D71C5D9EF1004B8901 /* content_films-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4CF1C5D9EF1004B8901 /* content_films-667h@2x.png */; };
+		130EA4D81C5D9EF1004B8901 /* content_films.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4D01C5D9EF1004B8901 /* content_films.png */; };
+		130EA4D91C5D9EF1004B8901 /* content_films@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4D11C5D9EF1004B8901 /* content_films@2x.png */; };
+		130EA4DA1C5D9EF1004B8901 /* content_music@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 130EA4D21C5D9EF1004B8901 /* content_music@3x.png */; };
+		130EA4DC1C5D9F8B004B8901 /* CircularRevealTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EA4DB1C5D9F8B004B8901 /* CircularRevealTransition.swift */; };
+		130EA4DE1C5D9FA5004B8901 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EA4DD1C5D9FA5004B8901 /* CGRect+Extension.swift */; };
 		13A6A7951C5D7CC900A3FB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */; };
 		13A6A7971C5D7CC900A3FB08 /* PrayerCompanion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */; };
 		13A6A79A1C5D7CC900A3FB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A7981C5D7CC900A3FB08 /* Main.storyboard */; };
 		13A6A79D1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A79B1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld */; };
 		13A6A79F1C5D7CC900A3FB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */; };
 		13A6A7A21C5D7CC900A3FB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6A7A01C5D7CC900A3FB08 /* LaunchScreen.storyboard */; };
-		13E134D41C5D8ADD00A37A04 /* Azan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E134D31C5D8ADD00A37A04 /* Azan.swift */; };
 		B4D8A2D75F0490FC332635AD /* Pods_Prayer_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC487588959563F97A496F /* Pods_Prayer_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130EA4C91C5D9EE8004B8901 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		130EA4CB1C5D9EF1004B8901 /* content_films@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@3x.png"; sourceTree = "<group>"; };
+		130EA4CC1C5D9EF1004B8901 /* content_music-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music-667h@2x.png"; sourceTree = "<group>"; };
+		130EA4CD1C5D9EF1004B8901 /* content_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_music.png; sourceTree = "<group>"; };
+		130EA4CE1C5D9EF1004B8901 /* content_music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music@2x.png"; sourceTree = "<group>"; };
+		130EA4CF1C5D9EF1004B8901 /* content_films-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films-667h@2x.png"; sourceTree = "<group>"; };
+		130EA4D01C5D9EF1004B8901 /* content_films.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_films.png; sourceTree = "<group>"; };
+		130EA4D11C5D9EF1004B8901 /* content_films@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_films@2x.png"; sourceTree = "<group>"; };
+		130EA4D21C5D9EF1004B8901 /* content_music@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_music@3x.png"; sourceTree = "<group>"; };
+		130EA4DB1C5D9F8B004B8901 /* CircularRevealTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransition.swift; sourceTree = "<group>"; };
+		130EA4DD1C5D9FA5004B8901 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
 		13A6A7911C5D7CC900A3FB08 /* Prayer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prayer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCompanion.swift; sourceTree = "<group>"; };
@@ -26,7 +47,6 @@
 		13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13A6A7A11C5D7CC900A3FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A6A7A31C5D7CC900A3FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13E134D31C5D8ADD00A37A04 /* Azan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Azan.swift; sourceTree = "<group>"; };
 		5A2292AD94ECBFEF686E4932 /* Pods-Prayer App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prayer App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prayer App/Pods-Prayer App.debug.xcconfig"; sourceTree = "<group>"; };
 		5C8BFE301761DE657512571E /* Pods-Prayer App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prayer App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prayer App/Pods-Prayer App.release.xcconfig"; sourceTree = "<group>"; };
 		ECEC487588959563F97A496F /* Pods_Prayer_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prayer_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +87,17 @@
 			children = (
 				13A6A7941C5D7CC900A3FB08 /* AppDelegate.swift */,
 				13A6A7961C5D7CC900A3FB08 /* PrayerCompanion.swift */,
-				13E134D31C5D8ADD00A37A04 /* Azan.swift */,
+				130EA4C91C5D9EE8004B8901 /* ContentType.swift */,
+				130EA4DB1C5D9F8B004B8901 /* CircularRevealTransition.swift */,
+				130EA4DD1C5D9FA5004B8901 /* CGRect+Extension.swift */,
+				130EA4CB1C5D9EF1004B8901 /* content_films@3x.png */,
+				130EA4CC1C5D9EF1004B8901 /* content_music-667h@2x.png */,
+				130EA4CD1C5D9EF1004B8901 /* content_music.png */,
+				130EA4CE1C5D9EF1004B8901 /* content_music@2x.png */,
+				130EA4CF1C5D9EF1004B8901 /* content_films-667h@2x.png */,
+				130EA4D01C5D9EF1004B8901 /* content_films.png */,
+				130EA4D11C5D9EF1004B8901 /* content_films@2x.png */,
+				130EA4D21C5D9EF1004B8901 /* content_music@3x.png */,
 				13A6A7981C5D7CC900A3FB08 /* Main.storyboard */,
 				13A6A79E1C5D7CC900A3FB08 /* Assets.xcassets */,
 				13A6A7A01C5D7CC900A3FB08 /* LaunchScreen.storyboard */,
@@ -157,8 +187,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A6A7A21C5D7CC900A3FB08 /* LaunchScreen.storyboard in Resources */,
+				130EA4DA1C5D9EF1004B8901 /* content_music@3x.png in Resources */,
 				13A6A79F1C5D7CC900A3FB08 /* Assets.xcassets in Resources */,
+				130EA4D41C5D9EF1004B8901 /* content_music-667h@2x.png in Resources */,
+				130EA4D71C5D9EF1004B8901 /* content_films-667h@2x.png in Resources */,
 				13A6A79A1C5D7CC900A3FB08 /* Main.storyboard in Resources */,
+				130EA4D61C5D9EF1004B8901 /* content_music@2x.png in Resources */,
+				130EA4D31C5D9EF1004B8901 /* content_films@3x.png in Resources */,
+				130EA4D51C5D9EF1004B8901 /* content_music.png in Resources */,
+				130EA4D91C5D9EF1004B8901 /* content_films@2x.png in Resources */,
+				130EA4D81C5D9EF1004B8901 /* content_films.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A6A7971C5D7CC900A3FB08 /* PrayerCompanion.swift in Sources */,
+				130EA4CA1C5D9EE8004B8901 /* ContentType.swift in Sources */,
 				13A6A79D1C5D7CC900A3FB08 /* Prayer_App.xcdatamodeld in Sources */,
+				130EA4DE1C5D9FA5004B8901 /* CGRect+Extension.swift in Sources */,
 				13A6A7951C5D7CC900A3FB08 /* AppDelegate.swift in Sources */,
-				13E134D41C5D8ADD00A37A04 /* Azan.swift in Sources */,
+				130EA4DC1C5D9F8B004B8901 /* CircularRevealTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
