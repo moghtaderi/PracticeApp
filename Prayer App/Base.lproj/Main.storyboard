@@ -28,7 +28,7 @@
         <scene sceneID="hjq-KL-GYc">
             <objects>
                 <tableViewController id="Rzh-mZ-Ka4" customClass="PrayerCompanion" customModule="Prayer_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="EyY-lv-u10">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="EyY-lv-u10">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -38,43 +38,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zhs-gv-46J" id="Ru9-xW-DpM">
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j4V-By-tZp">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="639.5"/>
-                                                    </variation>
-                                                </imageView>
-                                            </subviews>
                                             <color key="backgroundColor" red="0.9212072491645813" green="0.84832113981246948" blue="0.62377804517745972" alpha="1" colorSpace="calibratedRGB"/>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="j4V-By-tZp" secondAttribute="bottom" id="JZe-cR-FKp"/>
-                                                <constraint firstItem="j4V-By-tZp" firstAttribute="top" secondItem="Ru9-xW-DpM" secondAttribute="top" id="oWf-43-Jxf"/>
-                                                <constraint firstItem="j4V-By-tZp" firstAttribute="leading" secondItem="Ru9-xW-DpM" secondAttribute="leading" id="rwh-4c-WgR"/>
-                                                <constraint firstAttribute="trailing" secondItem="j4V-By-tZp" secondAttribute="trailing" id="wEz-At-5aH"/>
-                                            </constraints>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="j4V-By-tZp"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <exclude reference="JZe-cR-FKp"/>
-                                                    <exclude reference="oWf-43-Jxf"/>
-                                                    <exclude reference="rwh-4c-WgR"/>
-                                                    <exclude reference="wEz-At-5aH"/>
-                                                </mask>
-                                            </variation>
-                                            <variation key="heightClass=regular-widthClass=compact">
-                                                <mask key="subviews">
-                                                    <include reference="j4V-By-tZp"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <include reference="JZe-cR-FKp"/>
-                                                    <include reference="oWf-43-Jxf"/>
-                                                    <include reference="rwh-4c-WgR"/>
-                                                    <include reference="wEz-At-5aH"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -87,7 +51,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="kcX-6N-FYv"/>
                     <connections>
-                        <outlet property="imageView" destination="j4V-By-tZp" id="efj-Bn-mEC"/>
+                        <outlet property="tableCell" destination="Zhs-gv-46J" id="8F0-4P-h77"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3u-C0-0uo" userLabel="First Responder" sceneMemberID="firstResponder"/>

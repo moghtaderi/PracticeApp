@@ -14,7 +14,7 @@ import Persei
 class PrayerCompanion: UITableViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet private weak var imageView: UIImageView!
+    @IBOutlet weak var tableCell: UITableViewCell!
     private weak var menu: MenuView!
 
     override func viewDidLoad() {
@@ -26,10 +26,8 @@ class PrayerCompanion: UITableViewController {
         self.view.backgroundColor = UIColor(gradientStyle:UIGradientStyle.Radial, withFrame:self.view.frame, andColors:[UIColor.flatLimeColor(), UIColor.flatForestGreenColorDark()])
         
         title = model.description
-        //imageView.image = model.image
         
     }
-    
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return self.view.frame.height-(self.navigationController?.navigationBar.frame.height)!
@@ -59,16 +57,14 @@ class PrayerCompanion: UITableViewController {
                 let center: CGPoint = {
                     let itemFrame = self.menu.frameOfItemAtIndex(self.menu.selectedIndex!)
                     let itemCenter = CGPoint(x: itemFrame.midX, y: itemFrame.midY)
-                    var convertedCenter = self.imageView.convertPoint(itemCenter, fromView: self.menu)
+                    var convertedCenter = self.tableCell.convertPoint(itemCenter, fromView: self.menu)
                     convertedCenter.y = 0
                     
                     return convertedCenter
                 }()
                 
-                let transition = CircularRevealTransition(layer: imageView.layer, center: center)
+                let transition = CircularRevealTransition(layer: tableCell.layer, center: center)
                 transition.start()
-                
-                //imageView.image = model.image
             }
         }
     }
